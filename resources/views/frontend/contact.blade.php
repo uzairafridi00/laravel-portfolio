@@ -17,19 +17,24 @@
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
                             <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>Peshawar, Pakistan</p>
                         </div>
 
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com</p>
+                            <a href="mailto:uzairafrididev@gmail.com">
+                                <p>uzairafrididev@gmail.com</p>
+                            </a>
                         </div>
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
+                            <h4>Call or Whatsapp Us:</h4>
+                            <a href="tel:+923333544933">
+                                <p>+92333 3544933</p>
+                            </a>
+
                         </div>
 
                     </div>
@@ -38,7 +43,8 @@
 
                 <div class="col-lg-8 mt-5 mt-lg-0">
 
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form method="POST" action="{{ route('Contact.store') }}" role="form">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -56,15 +62,13 @@
                         <div class="form-group mt-3">
                             <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                         </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                        <div class="text-center"><button type="submit" class="btn btn-primary mt-3">Send Message</button>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
 
                 </div>
+
 
             </div>
 

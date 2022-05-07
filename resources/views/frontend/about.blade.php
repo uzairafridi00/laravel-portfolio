@@ -8,9 +8,9 @@
 
             <div class="section-title">
                 <h2>About</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                    sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                    ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>I am an undergrad Software Engineering Student. Skilled in Web development and Web security. I am highly
+                    passionate about Web security and wanted to work with professionals to keep the internet secure for end
+                    users.</p>
             </div>
 
             <div class="row">
@@ -18,33 +18,29 @@
                     <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>UI/UX Designer &amp; Web Developer.</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
-                    </p>
+                    <h3>Full Stack Web Developer &amp; Web Penetration Tester.</h3>
+                    <br>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                        1995</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Hobby:</strong> <span>Coding</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                    <span>www.example.com</span>
+                                    <span>www.uzair.com</span>
                                 </li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                        7890</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                        USA</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92333 3544933</span>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Peshawar,
+                                        Pakistan</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Interest:</strong> <span>Bug Bounty</span>
                                 </li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
-                                    <span>email@example.com</span>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                    <span>uzairafrididev@gmail.com</span>
                                 </li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
                                     <span>Available</span>
@@ -52,20 +48,18 @@
                             </ul>
                         </div>
                     </div>
-                    <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
-                        adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
-                        itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                        culpa magni laudantium dolores.
+                    <br><br>
+                    <p class="fst-italic">
+                        Many people tend to look at programming styles and languages like religions: if you belong to one,
+                        you cannot belong to others. But this analogy is another fallacy.
+
                     </p>
                 </div>
             </div>
 
         </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
+    {{-- <!-- ======= Facts Section ======= -->
     <section id="facts" class="facts">
         <div class="container" data-aos="fade-up">
 
@@ -117,7 +111,7 @@
             </div>
 
         </div>
-    </section><!-- End Facts Section -->
+    </section><!-- End Facts Section --> --}}
 
 
     <!-- ======= Skills Section ======= -->
@@ -126,9 +120,7 @@
 
             <div class="section-title">
                 <h2>Skills</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                    sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                    ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Below are the skills that I learned throughout my learning journey.</p>
             </div>
 
             <div class="row skills-content">
@@ -144,7 +136,7 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">CSS <i class="val">90%</i></span>
+                        <span class="skill">CSS (Bootstrap/Tailwind) <i class="val">90%</i></span>
                         <div class="progress-bar-wrap">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -152,9 +144,17 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">JavaScript <i class="val">75%</i></span>
+                        <span class="skill">Python (Selenium)<i class="val">80%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">JavaScript <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                 <div class="col-lg-6">
 
                     <div class="progress">
-                        <span class="skill">PHP <i class="val">80%</i></span>
+                        <span class="skill">PHP/Laravel <i class="val">80%</i></span>
                         <div class="progress-bar-wrap">
                             <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -180,9 +180,18 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">Photoshop <i class="val">55%</i></span>
+                        <span class="skill">React <i class="val">50%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Databases (MYSQL, MongoDB, PostgreSQL) <i
+                                class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
